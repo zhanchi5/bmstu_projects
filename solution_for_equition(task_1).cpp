@@ -12,7 +12,7 @@ int main()
     std::cin>>x;
     std::printf("y=x^2+11+sqrt((x^2+11)\n");
     y=((pow(x,2))+11)+sqrt((double(pow(x,2)+11)));
-    std::printf("Ответ: y= %ld",y);
+    printf("Ответ: y= %ld",y);
     getch();
     return 0;
 
