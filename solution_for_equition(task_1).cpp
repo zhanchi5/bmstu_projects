@@ -10,7 +10,7 @@ int main()
     int x=0;
     std::cout<<"Введите значение x: ";
     std::cin>>x;
-    std::printf("y=x^2+11+sqrt((x^2+11)\n");
+    printf("y=x^2+11+sqrt((x^2+11)\n");
     y=((pow(x,2))+11)+sqrt((double(pow(x,2)+11)));
     printf("Ответ: y= %ld",y);
     getch();
